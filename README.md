@@ -1,4 +1,4 @@
-# Awesome Project with Figma
+# Implement a Design from Scratch Project
 
 Welcome to our amazing project! This README.md will guide you through the key interactions and design notes for our web page created using Figma.
 
