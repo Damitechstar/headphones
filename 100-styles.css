@@ -361,7 +361,42 @@ main .grid .element h2 {
   #results .section-title {
     font-size: 30px;
 }
-  #results .grid .element {
+
+
+
+.pentagon {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: #f84848;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+/* .pentagon::before {
+    content: '';
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    background-color: #007bff;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    transform: rotate(72deg);
+} */
+
+/* .pentagon::after {
+    content: '';
+    position: absolute;
+    top: 12%;
+    left: 12%;
+    width: 76%;
+    height: 76%;
+    background-color: #007bff;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    transform: rotate(144deg);
+} */
+
+ /** #results .grid .element {
     height: 10rem;
     padding: 0;
     position: relative;
@@ -381,7 +416,7 @@ main .grid .element h2 {
 #results .grid .element p {
     position: relative;
     top: 12%;
-}
+} **/
 
 /** Responsive Qualities **/
 
@@ -474,7 +509,7 @@ footer p {
     margin: 0 0.5rem;
   }
 
-/** Responsive Qualities **/
+/** media queries **/
   
 @media (max-width: 480px) {
     footer .container {
