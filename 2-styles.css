@@ -30,7 +30,6 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     background-size: cover;
     position: relative;
     color: var(--color-white);
-
   }
 
   header .header {
@@ -61,12 +60,14 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     margin: 2rem 0;
     line-height: 1.5;
     font-size: var(--font-medium);
+
   }
 
   .content {
     line-height: 0;
   }
-  
+
+ 
   /** Responsive Qualities - Desktop View **/
 
   @media (max-width: 1200px) {
@@ -148,6 +149,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     font-family: var(--font);
     margin: 20rem auto 0 auto;
   }
+
   
 /** Responsive Qualities - Mobile View **/
   
@@ -245,7 +247,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 /** What We Do Section **/
 
 main {
-width: 100%;
+width: 100%
 position: relative;
 }
 
@@ -326,14 +328,51 @@ main .grid .element h2 {
 }
 
 
+/** Results Section **/
 
+#results {
+    color: white;
+    background-image: url("images/headphones_hero_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+  #results .container {
+    padding: 6rem 4rem;
+  }
 
+  #results .section-title {
+    font-size: 30px;
+}
+  #results .grid .element {
+    height: 10rem;
+    padding: 0;
+    position: relative;
+    background-image: url("images/pentagone.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;   
+}
 
+  
+#results .grid .element h2 {
+    position: relative;
+    top: 15%;
+    font-size: var(--font-large:);
+}
 
+#results .grid .element p {
+    position: relative;
+    top: 12%;
+}
 
+/** Responsive Qualities **/
 
-
+@media (max-width: 480px) {
+    #results {
+      background-position: 50%;
+  }
+}
 
 
 

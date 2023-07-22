@@ -62,8 +62,12 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     line-height: 1.5;
     font-size: var(--font-medium);
   }
+
+  .content {
+    line-height: 0;
+  }
   
-  /** Desktop View **/
+  /** Responsive Qualities - Desktop View **/
 
   @media (max-width: 1200px) {
     header {
@@ -108,6 +112,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 
 
   /** Logo **/
+
   .logo {
     width: 161px;
     height: auto;
@@ -145,21 +150,8 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     margin: 20rem auto 0 auto;
   }
   
-  .title {
-    font-size: var(--font-large);
-    position: relative;
-    font-weight: 700;
-  }
   
-  .title::after {
-    content: "Lorem ipsum dolor set amet lorem ipsum";
-    display: block;
-    font-size: var(--font-medium);
-    position: relative;
-    margin: 0.25rem 0;
-  }
-  
-/** Mobile View **/
+/** Responsive Qualities - Mobile View **/
   
   @media (max-width: 480px) {
     header {
