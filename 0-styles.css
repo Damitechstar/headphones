@@ -14,11 +14,10 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     --color-white: #fff;
     --color-red: #FF6565;
 
-    --font-size-small: 12px;
-    --font-size-medium: 16px;
-    --font-size-large: 32px;
-
-    --font-family: 'Source Sans Pro', 'Lato', sans-serif;
+    --font-small: 12px;
+    --font-medium: 16px;
+    --font-large: 32px;
+    --font: 'Source Sans Pro', 'Lato', sans-serif;
   }
 
 /** Header **/
@@ -64,7 +63,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
   }
 
   .content {
-    line-height: 0;
+  line-height: 0;
   }
   
   /** Responsive Qualities - Desktop View **/
@@ -188,6 +187,16 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
         width: 100%;
       }
   
+    .content {
+        width: 100%;
+        margin: auto;
+        font-family: var(--font);
+        font-size: var(--font-large);
+        font-weight: bold;
+        text-align: center;
+      }
+    
+
     #menu-btn {
       background: white;
       height: 2px;
